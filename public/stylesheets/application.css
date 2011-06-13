@@ -2,3 +2,50 @@
   Override default refinery application CSS below.
   Formatting applies to all frontend.
 */
+
+#menu ul {
+  padding:3px, 0;
+  margin-left: 0;
+  bottom-border: 1px solid #778;
+  font: bold 12px Verdana, sans-serif;
+}
+
+#menu ul li {
+  list-style: none;
+  margin: 0;
+  display: inline;
+}
+
+#menu ul li a {
+  padding: 3px 0.5em;
+  margin-left: 3px;
+  border: 1px solid #778;
+  border-bottom: none;
+  background: #DDE;
+  text-decoration: none;
+}
+
+#menu ul li a:link {
+  color: #448;
+}
+
+#menu ul li a:link:hover, #menu ul li a:visited:hover {
+  color: #000;
+  background: #AAE;
+  border-color: #227;
+}
+
+#menu ul li a#current {
+  background: white;
+  border-bottom: 1px solid white;
+}
+
+#gallery li {
+  list-style: none;
+  margin: 0;
+  display: inline;
+  padding: 3px 0.5em;
+  margin-left: 3px;
+  border-bottom: none;
+  text-decoration: none;
+}

@@ -1,7 +1,41 @@
 /*
-  Override default refinery application CSS below.
-  Formatting applies to all frontend.
+  This stylesheet overrides the default refinery application css
+  25-Jun-2011
+  Brian Watkins watkinsbrianr@gmail.com
 */
+
+/* THis section contains rules that apply everywhere */
+
+html {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+/* This section contains rules for resume */
+
+#resume h1 {
+  color: #F00;
+}
+
+#resume h2 {
+  color: #0F0;
+}
+
+#resume h3 {
+  color: #00F
+}
+
+#resume h4 {
+  color: #FF0;
+}
+
+#resume p {
+  color: #0FF;
+}
+
+#resume li {
+  color: #F0F;
+}
+
+/* This section contains rules for the menu */
 
 #menu ul {
   padding:3px, 0;
@@ -39,6 +73,8 @@
   background: white;
   border-bottom: 1px solid white;
 }
+
+/* This section contains rukes for the gallery, i.e. thumbnails */
 
 #gallery li {
   list-style: none;
